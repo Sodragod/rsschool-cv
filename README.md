@@ -1,2 +1,2 @@
 # https://Sodragod.github.io/rsschool-cv
-# https://github-username.github.io/rsschool-cv/cv
+# https://Sodragod.github.io/rsschool-cv/cv
