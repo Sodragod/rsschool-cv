@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bodytwo">
+        <header>
+        <nav class="container_nav">
+            <ul class="ul1">
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#project">My Project</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container_bio" id="bio">
+            <img src="arni.jpg" alt="photo">  
+            <h1>Hi I Aliaksei Kondratovich. I like to study and learn something new.</h1>
+        </div>
+        <div class="container_contacts" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li class="contacts"><img class="icon2" src="./Gmail_Icon.png" alt="email"><p>Sodragod@gmail.com</p></li>
+                <li class="contacts"><img class="icon2" src="./github.png" alt="GitHub"><p>Sodragod</p></li>
+            </ul>
+        </div>
+        <div class="container_skills" id="skills">
+            <h2>Skills</h2>
+            <ul class="ul3">
+                <li><img class="icon" src="./html.png" alt="Html"></li>
+                <li><img class="icon" src="./css.png" alt="CSS"></li>
+                <li><img class="icon" src="./JavaScript-Logo.png" alt="Js"></li>
+                <li><img class="icon" src="./Python-logo-notext.png" alt="pyton"></li>
+            </ul>
+        </div>
+        <div class="container_cod" id="code">
+            <h2>Code Example</h2>
+            <pre>
+                <code>
+                    function peak(arr) {
+
+                        for (let i = 1; i &lt; arr.length - 1; i++) {
+                          let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+                          let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+                      
+                          if (leftSum === rightSum) return i;
+                        }
+                        return -1;
+                      }
+                </code>
+            </pre>
+        </div>
+        <div class="container_curses" id="education">
+            <h2>Education and courses</h2>
+            <ul>
+                <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+                <li>JavaScript Manual on learnjavascript.ru</li>
+                <li>English level: A2</li>
+            </ul>
+        </div>
+        <div class="container_myproject" id="project">
+            <h2>Project</h2>
+            <img class="projectss" src="./travel.PNG" alt="travel">
+        </div>
+    </main>
+    <footer class="footer1">
+        <ul class="ul4">
+            <li><a href="https://github.com/Sodragod"><img class="icon" src="./github2.png" alt="GitHub"></a></li>
+            <li><p>2022</p></li>
+            <li><a href="https://rs.school/"><img class="icon" src="./logo-rs.svg" alt="Logo RS"></a></li>
+        </ul>
+    </footer>
+    </div>  
+</body>
+</html>
